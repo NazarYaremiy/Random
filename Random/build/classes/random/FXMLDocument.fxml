@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="436.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="random.FXMLDocumentController">
+   <children>
+      <TextField fx:id="vid" alignment="CENTER" focusTraversable="false" layoutX="51.0" layoutY="73.0" prefHeight="62.0" prefWidth="81.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="dodo" alignment="CENTER" focusTraversable="false" layoutX="217.0" layoutY="73.0" prefHeight="62.0" prefWidth="81.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <Button fx:id="button" layoutX="94.0" layoutY="196.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="166.0" text="Згенерувати">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Pane layoutX="14.0" layoutY="310.0" opacity="0.75" prefHeight="133.0" prefWidth="326.0" style="-fx-background-color: grey;">
+         <children>
+            <Label fx:id="result" alignment="CENTER" contentDisplay="CENTER" layoutY="4.0" prefHeight="96.0" prefWidth="301.0" textFill="#f5f5f5">
+               <font>
+                  <Font name="System Bold" size="60.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="78.0" layoutY="32.0" text="Від">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="245.0" layoutY="32.0" text="До">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="133.0" layoutY="271.0" text="Результат">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
